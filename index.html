@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/37f1f02b09.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,14 +19,20 @@
     </header>
 
     <main>
+
+        <section class="section-middle"> 
+            <p>Welcome to my website! Below you will find my personal portfolio of all the projects I have worked on over the past few years. Each project features a brief description along with pictures and a link to the project.</p>
+        </section>
         <section class="section-left">
             <h2>AptiStudy</h2>
-            <p>AptiStudy is a site that intends to augment and incentivize social opportunities through a more rewarding way with the application of study groups. Students can find various study groups, set up meetings for locations on campus, and complete a compatibility questionnaire to help students find study groups relating to their individual needs. Every web page was created in a PHP format to store user sessions and grab various information from our database using SQL queries.</p>
-            <p>Tools/Languages: HTML, CSS, JavaScript, SQL, PHP</p>
+            <p>AptiStudy is a site that intends to augment and incentivize social opportunities through a more rewarding way with the application of study groups. Students can find various study groups, set up meetings for locations on campus, and complete a compatibility questionnaire to help students find study groups relating to their individual needs. Every web page was created in a PHP format to store user sessions and grab various dynamic information from our database using SQL queries.</p>
+            <p>Other contributors: Alex McGaugh, Josh Hatfield, and Jonathan Yen
+            Tools/Languages: HTML, CSS, JavaScript, SQL, PHP</p>
             <div class="button-container">
-                <button class="button">
-                    <a href="https://cgi.luddy.indiana.edu/~team04/templates/login.php">Visit Site</a>
-                </button>
+                <a href="https://cgi.luddy.indiana.edu/~team04/templates/login.php">
+                    <button class="button">Visit Site
+                    </button>
+                </a>
             </div>
         </section>
         <section class="section-right">
@@ -36,12 +47,14 @@
             <p>For this project I created a mock up business demand requesting sales, budget, and customer information from a companies database. The manager in this situation wanted specific information and a dynamic visualization with filtering capabilities. I created different SQL queries to grab the requested information and then imported the results into Power BI. From there I made dataset connections on the backend in Power BI. The dynamic dashboards I created are dynamic and display different information depending on the dates selected.</p>
             <p>Tools/Languages: SSMS, SQL, Power BI</p>
             <div class="button-container">
-                <button class="button">
-                    <a href="https://cgi.luddy.indiana.edu/~team04/templates/login.php">Visit Site</a>
-                </button>
+                <a href="SalesVisual.pbix" download="SalesVisual.pbix">
+                    <button class="button">
+                        Download File
+                    </button>
+                </a>
             </div>
         </section>
-        <section class="section-right">
+        <section class="section-right-chart">
             <img src="/pictures/PowerBI-chart.png" alt="power chart 1" height="300px" width="460px">
             <img src="/pictures/PowerBI-chart2.png" alt="power chart 2" height="300px" width="460px">
             <img src="/pictures/PowerBI-chart3.png" alt="power chart 3" height="300px" width="460px">
@@ -52,9 +65,10 @@
             <p>Johnson's Plant Shop is a mobile-responsive website that showcases the captivating world of plants. It features a modern design and has a navigation bar that utilizes JavaScript. This site employs HTML semantics to ensure a structured and accessible user experience. You can find custom font choices and a carousel element featuring photos of my own plant collection.</p>
             <p>Tools/Languages: HTML, CSS, JavaScript</p>
             <div class="button-container">
-                <button class="button">
-                    <a href="https://cgi.luddy.indiana.edu/~dylajohn/p_index.html">Visit Site</a>
-                </button>
+                <a href="https://cgi.luddy.indiana.edu/~dylajohn/p_index.html">
+                    <button class="button">Visit Site
+                    </button>
+                </a>
             </div>
         </section>
         <section class="section-right">
@@ -67,7 +81,17 @@
     </main>
 
     <footer>
-        <p>a ref to linked in</p>
+        <section class="section-footer">
+            <p class="p-footer">Thank you for checking out my portfolio!</p>
+            <br>
+            <p>If you would like to check out more of my skills and projects you can find them on my LinkedIn profile.</p>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/dylan-johnson-tech95/">
+                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i>
+                </a>
+            </div>
+        </section>
+        
     </footer>
 </body>
 
